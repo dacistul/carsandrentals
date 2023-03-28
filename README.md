@@ -12,3 +12,5 @@ The service will be about renting people's cars.
 - admin functions
 - pay on a subscription/ commission at transaction
 - search by category, location, rating, period
+
+https://www.figma.com/file/JCWy7eRiBTwB8T2dK3JICm/Wad_Project_Carma?node-id=0%3A1&t=zKJPpoOXJBiGh6bo-1
