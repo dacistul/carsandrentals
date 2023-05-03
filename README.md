@@ -13,4 +13,5 @@ The service will be about renting people's cars.
 - pay on a subscription/ commission at transaction
 - search by category, location, rating, period
 
-https://www.figma.com/file/JCWy7eRiBTwB8T2dK3JICm/Wad_Project_Carma?node-id=0%3A1&t=zKJPpoOXJBiGh6bo-1
+https://www.figma.com/file/JYj8kGPGzxQYPhAthw9Th2/Wad_Project_Carma?node-id=0%3A1&t=E6XRH7GGxkSqFuh6-1
+https://trello.com/invite/b/08xfxNYv/ATTIfe599dff75f6f3084b1b1cbcd3c717e1475E1626/kanban-template
