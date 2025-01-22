@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% block content %}
+
+{% load bootstrap4 %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 card mb-4  mt-3 left top">
+      <div class="card-body">
+        <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
+        <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
+        <p class="card-text ">{{ object.content | linebreaksbr }}</p>
+      </div>
+      {% if post.file %}
+
+      <a href="{{post.file.url}}" download>{{ object.file }}</a> <!-- mica problema -->
+
+      {% endif %}
+    </div>
+    {% if post.image %}
+      <div class="col-md-4 mb-8 mt-3 right top">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="{{ post.image.url }}" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    {% block sidebar %} {% include 'sidebar.html' %} {% endblock sidebar %}
+  </div>
+</div>
+
+{% endblock content %}

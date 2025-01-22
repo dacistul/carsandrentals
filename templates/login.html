@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %} 
+
+{% load bootstrap4 %}         
+
+<!--Register--> 
+<div class="container py-5">
+	<h1>Login</h1>
+	<form method="POST">
+		{% csrf_token %}
+		{% bootstrap_form login_form %}                   
+		{% buttons %}
+        <button class="btn btn-primary" type="submit">Login</button>
+        {% endbuttons %}
+	</form>
+	<p class="text-center">If you don't already have an account, <a href="/register">register</a> instead.</p>
+</div>
+
+{% endblock %}

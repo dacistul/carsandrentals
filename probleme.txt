@@ -1,0 +1,6 @@
+1) Site-ul nu imi incarca pozele si nici nu le uploadeaza in baza de date
+2) User-ul nu isi poate edita postarile - gata
+3) Nu se poate deloga - Gata
+4) nu avem un search bar
+5) Ar trebuii sa se aleaga automat autorul atunci cand se realizeaza o postare
+6) ajustari la mici detalii UI
